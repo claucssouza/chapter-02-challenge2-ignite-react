@@ -10,6 +10,7 @@ import { Container } from './styles';
 type PropsInput = {
   name: string;
   icon?: any;
+  placeholder: string;
 }
 
 const Input = ({ name, icon: Icon, ...rest } : PropsInput) => {
